@@ -1,0 +1,86 @@
+body{
+    background-image: url("background-image.png");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+/* style for image */
+img{
+    float: left;
+    padding-right: 50px;
+}
+
+/* style for table  */
+table, th, td {
+    border:2px solid rgb(104, 103, 103);
+     border-collapse: collapse;
+    text-align: left; 
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+.table-2, th{
+    width: 90%;
+    width: fit-content; 
+    height: 100px;
+}
+
+td{
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+/* hr style */
+.hr{
+  width: 700px;
+  float: center;
+  color: rgb(151, 149, 149);
+  border: 5px dotted #8c8b8b;
+
+}
+/* button style  */
+.button{
+  display: inline-block;
+  background-color: coral;
+  border-radius: 10px;
+  border:none;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 150px;
+  margin: 8px;
+  margin-left: 45%;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+  /* form style  */
+form{
+    padding: 80px;
+    padding-top: 20%;
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+input[type=text] {
+    width: 100%;
+    text-align: end;
+    /* padding: 12px 20px; */
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    
+  }
